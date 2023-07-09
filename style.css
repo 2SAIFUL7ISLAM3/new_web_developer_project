@@ -1,53 +1,65 @@
-* {
-    box-sizing: border-box;
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+  
+  .header-all{
+    background-image: url("images/320695836_5907553112663724_8004835940462316619_n.jpg");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
   }
   nav {display: flex;
       justify-content: space-between;
+      margin: 0px 200px;
   }
   nav>ul{
     display: flex;
     align-items: center;
 }
 
-  nav li{list-style: none;
-         margin-right: 50px;
+  nav li{
+    list-style: none;
+    margin-right: 50px;
   }
-  .menu {
-    float: left;
-    width: 20%;
-  }
-  .menuitem {
-    padding: 8px;
-    margin-top: 7px;
-    border-bottom: 1px solid #f1f1f1;
-  }
-  .main {
-    float: left;
-    width: 60%;
-    padding: 0 20px;
-    overflow: hidden;
-  }
-  .right {
-    background-color: lightblue;
-    float: left;
-    width: 20%;
-    padding: 10px 15px;
-    margin-top: 7px;
-  }
-  
-  @media only screen and (max-width:800px) {
-    /* For tablets: */
-    .main {
-      width: 80%;
-      padding: 0;
-    }
-    .right {
-      width: 100%;
-    }
-  }
-  @media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .menu, .main, .right {
-      width: 100%;
-    }
-  }
+
+  nav a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.banner-content {
+  max-width: 500px;
+}
+
+.banner-greeting {
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.profile-pic {
+  width: 300px;
+  border-radius: 25px;
+}
+.messi-pc{
+  padding: 0px;
+  margin-bottom: 0px;
+  border: 0px;
+margin-left: 0px;}
